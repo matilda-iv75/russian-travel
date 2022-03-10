@@ -1,0 +1,48 @@
+.place__pharagraph {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    grid-area: pharagraph;   
+    min-width: 484px; 
+    max-width: 100%;
+    margin: 0;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.63;   
+    color: #FFFFFF; 
+    padding: 0;
+}
+.place__pharagraph-margintop {
+    margin-top: 26px;
+}  
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .place__pharagraph {
+        min-width: 456px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) { 
+    .place__pharagraph {
+        min-width: 352px;
+        font-size: 16px;
+        line-height: 1.63;
+    }
+    .place__pharagraph-margintop {
+        margin-top: 25px;
+    } 
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .place__pharagraph {
+        width: auto;
+        margin: 0 16px; 
+        min-width: 288px; 
+        font-size: 16px;
+        line-height: 1.63;
+    }
+    .place__pharagraph-margintop {
+        margin-top: 25px;
+    } 
+}
