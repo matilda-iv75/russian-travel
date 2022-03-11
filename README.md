@@ -1,6 +1,6 @@
 # Проект: Путешествие по России
 
-* [Ссылка на сайт в github](https://matilda-iv75.github.io/russian-travel/)
+* [Ссылка на сайт в github](https://matilda-iv75.github.io/russian-travel/index.html)
 
 ***
 Этот сайт содержит много фото и интересную информацию о разных частях нашей такой большой страны, о которых мы могли не знать. 
