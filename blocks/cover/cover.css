@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 92px 48px;    
+    margin: 92px 48px;
     min-height: 740px;
     background: url(../../images/cover-trains.jpg) no-repeat center;
     background-size: cover;
@@ -14,15 +14,15 @@
 }
 
 .cover:hover:before {
-    background-color:rgba(42, 44, 47, 0.8);    
+    background-color:rgba(42, 44, 47, 0.8);
     content: '';
     position: absolute;
     width: 100%;
     top: 0;
     bottom: 0;
     left: 0;
-    cursor: url(../../images/cursor.png), auto;    
-}  
+    cursor: url(../../images/cursor.png), auto;
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
     .cover {
@@ -41,6 +41,6 @@
     .cover {        
         margin: 66px 0 64px;
         padding: 33px 0;
-        min-height: auto;       
+        min-height: auto;
     }
 }
