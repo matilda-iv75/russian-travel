@@ -1,8 +1,8 @@
 .intro__title { 
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;   
+    -moz-osx-font-smoothing: grayscale;
     margin: 0;
-    padding: 0;    
+    padding: 0;
     margin-bottom: 40px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
