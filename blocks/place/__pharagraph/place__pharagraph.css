@@ -13,9 +13,9 @@
     color: #FFFFFF;
     padding: 0;
 }
-.place__pharagraph-margintop {
+.place__pharagraph:nth-of-type(2n) {
     margin-top: 26px;
-}  
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
     .place__pharagraph {
@@ -29,9 +29,9 @@
         font-size: 16px;
         line-height: 1.63;
     }
-    .place__pharagraph-margintop {
+    .place__pharagraph:nth-of-type(2n) {
         margin-top: 25px;
-    } 
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px){
@@ -42,7 +42,7 @@
         font-size: 16px;
         line-height: 1.63;
     }
-    .place__pharagraph-margintop {
+    .place__pharagraph:nth-of-type(2n) {
         margin-top: 25px;
-    } 
+    }
 }

@@ -9,6 +9,9 @@
     line-height: 1.12;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.footer__link:hover {
     cursor: url(../../../images/cursor.png), auto;
 }
 
