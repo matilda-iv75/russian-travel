@@ -3,7 +3,7 @@
     margin: 0 auto;
     margin-top: 32px;
     margin-bottom: 64px;
-    width: 640px;
+    max-width: 640px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;

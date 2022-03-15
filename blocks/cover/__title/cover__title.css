@@ -3,7 +3,7 @@
     -moz-osx-font-smoothing: grayscale;
     position: relative;
     margin: 0 auto;
-    width: 560px;
+    max-width: 560px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;

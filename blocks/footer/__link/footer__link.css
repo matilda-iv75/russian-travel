@@ -13,6 +13,7 @@
 
 .footer__link:hover {
     cursor: url(../../../images/cursor.png), auto;
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px){

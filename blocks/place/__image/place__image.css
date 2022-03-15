@@ -2,14 +2,16 @@
     grid-area: image;
     max-width: 100%;
     object-fit: cover;
-    min-height: 460px;
-    min-width: 460px;
+    max-height: 460px;
+    max-width: 460px;
+
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
     .place__image {
         min-width: 440px;
         min-height: 440px;
+        max-width: 100%;
     }
 }
 
@@ -17,13 +19,15 @@
     .place__image {
         min-width: 340px;
         min-height: 340px;
+        max-width: 100%;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px){
+ @media screen and (min-width: 320px) and (max-width: 767px){
     .place__image {
+
         width: auto;
         min-width: 320px;
         min-height: 320px;
-    }
+    } 
 }

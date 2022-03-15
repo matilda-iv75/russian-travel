@@ -3,6 +3,12 @@
     margin: 0 148px;
 } 
 
+@media screen and (min-width: 1360px) {
+    .place {
+        margin: 0 188px;
+    }
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1279px){
     .place {
         margin: 0 48px;

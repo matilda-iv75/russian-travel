@@ -9,7 +9,7 @@
     font-size: 96px;
     line-height: 1.04;
     color: #FFFFFF;
-    width: 720px;
+    max-width: 720px;
     text-align: center;
 }
 
