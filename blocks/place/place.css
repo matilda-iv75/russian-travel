@@ -5,7 +5,7 @@
 
 @media screen and (min-width: 1281px) {
     .place {
-        margin: 0 calc((100vw-460px-484px-40px)/2);
+        margin: 0 calc((100vw - 460px - 484px - 40px) / 2);
     }
 }
 
