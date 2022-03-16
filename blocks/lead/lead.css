@@ -2,11 +2,22 @@
     margin: 56px 148px 92px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-         
+    max-width: 984px;
 }
+@media screen and (min-width: 1281px) {
+    .lead {
+        margin: 56px auto 92px;
+    }
+    
+/* .content {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+} */
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1279px){
     .lead {
         margin: 48px 48px 92px;
@@ -20,7 +31,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px){
-    .lead {    
+    .lead {
         margin: 48px 0 64px;
     }
 }

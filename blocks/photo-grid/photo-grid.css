@@ -9,6 +9,16 @@
     grid-auto-flow: row;
     gap: 16px;
 }
+.content {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 1281px){
+    .photo-grid__item {
+        max-width: 284px;
+        max-height: 213px;
+    }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .photo-grid {
